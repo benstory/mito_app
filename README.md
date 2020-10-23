@@ -54,3 +54,4 @@ inst/doc/callingCohort.html
 inst/doc/callingNoBin.html
 inst/doc/clustering.html
 inst/doc/denovo.html
+# mito_app
