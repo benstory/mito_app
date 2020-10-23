@@ -1,0 +1,19 @@
+Package: mitoseq
+Type: Package
+Title: Clonal tracking in single-cell RNA-seq data using mitochondrial mutations
+Version: 0.1.0
+Author: Lars Velten, Ben Story
+Maintainer: Lars Velten <lars.velten@crg.eu>
+Description: This package identifies somatic variants in mitochondrial genomes from aligned BAM files; 
+    filters these variants to remove RNA editing events; 
+    estimates their evolutionary relationship (i.e. their phylogenetic tree);
+    and finally groups single cells into clones using a probabilistic approach.
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    reshape2,
+    GenomicRanges,
+    pheatmap,
+    deepSNV
+RoxygenNote: 7.1.0
